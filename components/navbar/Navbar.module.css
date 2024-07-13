@@ -35,15 +35,30 @@
     list-style: none;
 }
 
+.navbar .navLinks li {
+    margin: 0 5px;
+}
+
+.navbar .navLinks li :hover {
+    border: 2px solid #FFF;
+}
+
 .navbar .navLinks li a {
     color: #fff;
     text-decoration: none;
     transition: all 0.2s linear;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #1f1861;
     cursor: pointer;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @media (max-width: 850px) {
     .navbar {
-        zoom: 0.5;
+        zoom: 0.4;
     }
 }
